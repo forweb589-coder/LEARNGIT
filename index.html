@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biruk Tamrat | Portfolio</title>
+
+    <meta name="description" content="Biruk Tamrat - Student, Web Developer,  Programmer and Graphic Designer.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress"></div>
+
+    <!-- BACKGROUND EFFECTS -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            BIRUK<span>.</span>
+        </a>
+
+        <button class="menu-btn" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav class="nav-links">
+            <a href="#home" class="active" data-i18n="home">Home</a>
+            <a href="#about" data-i18n="about">About</a>
+            <a href="#skills" data-i18n="skills">Skills</a>
+            <a href="#projects" data-i18n="projects">Projects</a>
+            <a href="#contact" data-i18n="contact">Contact</a>
+        </nav>
+
+        <select id="languageSwitcher" class="language-switcher" aria-label="Choose language">
+            <option value="en">🇬🇧 English</option>
+            <option value="am">🇪🇹 አማርኛ</option>
+            <option value="ar">🇸🇦 العربية</option>
+        </select>
+
+        <a href="#contact" class="nav-button" data-i18n="navContact">
+            contact me
+        </a>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content reveal">
+
+            <div class="status">
+                <span class="status-dot"></span>
+                <span data-i18n="status">creative Designer</span>
+            </div>
+
+            <p class="intro" data-i18n="intro">HELLO, I'M</p>
+
+            <h1>
+                BIRUK
+                <span>TAMRAT.</span>
+            </h1>
+
+            <h2>
+                <span data-i18n="imA">I'm a</span> <span class="typing"></span>
+                <span class="cursor">|</span>
+            </h2>
+
+            <p class="hero-description" data-i18n="heroDescription">
+                A creative high school student passionate about
+                technology, web development and digital design.
+                I love transforming ideas into beautiful digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn" data-i18n="exploreWork">
+                    Explore My Work ↗
+                </a>
+
+                <a href="#contact" class="secondary-btn" data-i18n="contactMe">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/forweb589-coder/LEARNGIT"
+                   target="_blank" rel="noopener noreferrer" data-i18n="github">
+                    GITHUB ↗
+                </a>
+
+                <span>•</span>
+
+                <a href="mailto: " data-i18n="emailLabel">
+                    EMAIL
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="profile-card">
+                <div class="profile-top">
+                    <span data-i18n="digitalWorld">MY DIGITAL WORLD</span>
+                    <span class="live-dot"></span>
+                </div>
+
+<div class="profile-symbol">
+    <img src="p2.png" alt="Biruk Tamrat">
+</div>
+                
+
+                <h3 data-i18n="creativeMind">CREATIVE MIND.</h3>
+                <p data-i18n="buildingFuture">BUILDING THE FUTURE WITH CODE.</p>
+
+                <div class="profile-bottom">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JAVA</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+
+        <div class="section-heading reveal">
+            <span class="section-label" data-i18n="aboutLabel">01 / ABOUT ME</span>
+            <h2 data-i18n-html="aboutHeading">Who <span>Am I?</span></h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+                <h3 data-i18n-html="aboutTagline">Student by day.<br>
+                    <span>Creator by passion.</span>
+                </h3>
+
+                <p data-i18n="aboutP1">
+                    My name is Biruk Tamrat. I am a Grade 11B
+                    high school student at Kings Academy.
+                </p>
+
+                <p data-i18n="aboutP2">
+                    I am passionate about technology and creativity.
+                    My interests include building websites with HTML
+                    and CSS, programming with Java, and creating
+                    attractive graphics.
+                </p>
+
+                <p data-i18n="aboutP3">
+                    My goal is to keep learning, improve my skills
+                    and create digital experiences that make a difference.
+                </p>
+            </div>
+
+            <div class="about-info reveal">
+                <div class="info-card">
+                    <span data-i18n="nameLabel">NAME</span>
+                    <h4>Biruk Tamrat</h4>
+                </div>
+
+                <div class="info-card">
+                    <span data-i18n="schoolLabel">SCHOOL</span>
+                    <h4>Kings Academy</h4>
+                </div>
+
+                <div class="info-card">
+                    <span data-i18n="gradeLabel">GRADE</span>
+                    <h4>Grade 11B</h4>
+                </div>
+
+                <div class="info-card">
+                    <span data-i18n="fieldLabel">FIELD</span>
+                    <h4 data-i18n="fieldValue">Natural-science</h4>
+                
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills" id="skills">
+
+        <div class="section-heading reveal">
+            <span class="section-label" data-i18n="skillsLabel">02 / MY EXPERTISE</span>
+            <h2 data-i18n-html="skillsHeading">My <span>Skills.</span></h2>
+            <p data-i18n="skillsDescription">Technologies and projects I work with.</p>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">&lt;/&gt;</div>
+                <h3>HTML🌐</h3>
+                <p data-i18n="htmlDescription">Building structured and meaningful web pages.</p>
+                <span class="skill-tag" data-i18n="webDevelopment">WEB DEVELOPMENT</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">#</div>
+                <h3>CSS🎨</h3>
+                <p data-i18n="cssDescription">Designing modern, responsive and beautiful interfaces.</p>
+                <span class="skill-tag" data-i18n="webDesign">WEB DESIGN</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">!</div>
+                <h3>JAVA☕</h3>
+                <p data-i18n="javaDescription">Exploring programming and software development.</p>
+                <span class="skill-tag" data-i18n="programming">PROGRAMMING</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">✦</div>
+                <h3>GRAPHIC DESIGN🖼️</h3>
+                <p data-i18n="designDescription">Creating visual designs and digital creativity.</p>
+                <span class="skill-tag" data-i18n="creativeDesign">CREATIVE DESIGN</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects" id="projects">
+
+        <div class="section-heading reveal">
+            <span class="section-label" data-i18n="workLabel">03 / MY WORK</span>
+            <h2 data-i18n-html="projectsHeading">Featured <span>Projects.</span></h2>
+            <p data-i18n="projectsDescription">Some of my coding and creative work.</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <div class="project-visual visual-one">
+                    <span>01</span>
+                    <h3 data-i18n-html="projectVisual1">WEB<br>DEVELOPMENT</h3>
+                </div>
+
+                <div class="project-info">
+                    <span>HTML • CSS • JAVASCRIPT</span>
+                    <h3 data-i18n="creativeWebsites">Creative Websites</h3>
+                    <p data-i18n="creativeWebsitesDesc">Modern website development and interface design.</p>
+                    <a href="https://github.com/forweb589-coder/LEARNGIT"
+                       target="_blank" rel="noopener noreferrer">
+                        VIEW REPOSITORY ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-visual visual-two">
+                    <span>02</span>
+                    <h3 data-i18n-html="projectVisual2">JAVA<br>PROGRAMMING</h3>
+                </div>
+
+                <div class="project-info">
+                    <span>JAVA</span>
+                    <h3 data-i18n="programmingJourney">Programming Journey</h3>
+                    <p data-i18n="programmingJourneyDesc">Learning programming concepts and building projects.</p>
+                    <a href="https://github.com/forweb589-coder/LEARNGIT"
+                       target="_blank" rel="noopener noreferrer">
+                        VIEW REPOSITORY ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-visual visual-three">
+                    <span>03</span>
+                    <h3 data-i18n-html="projectVisual3">DIGITAL<br>CREATIVITY</h3>
+                </div>
+
+                <div class="project-info">
+                    <span>GRAPHIC DESIGN</span>
+                    <h3 data-i18n="visualDesigns">Visual Designs</h3>
+                    <p data-i18n="visualDesignsDesc">Exploring visual communication and creative design.</p>
+                    <a href="https://github.com/forweb589-coder/LEARNGIT"
+                       target="_blank" rel="noopener noreferrer">
+                        EXPLORE MORE ↗
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact" id="contact">
+
+        <div class="section-heading reveal">
+            <span class="section-label" data-i18n="contactLabel">04 / GET IN TOUCH</span>
+            <h2 data-i18n-html="contactHeading">Let's Create <span>Together.</span></h2>
+            <p data-i18n="contactDescription">Have an idea or a project? Feel free to reach out.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-info reveal">
+
+                <h3 data-i18n-html="contactTagline">Let's talk about<br>
+                    <span>your next idea.</span>
+                </h3>
+
+                <div class="contact-item">
+                    <span data-i18n="emailLabel">EMAIL</span>
+                    <a href="mailto:">
+                        forweb589@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <span data-i18n="phoneLabel">PHONE</span>
+                    <p>+25194922xxxx</p>
+                </div>
+
+                <div class="contact-item">
+                    <span data-i18n="githubLabel">GITHUB</span>
+                    <a href="https://github.com/forweb589-coder/LEARNGIT"
+                       target="_blank" rel="noopener noreferrer">
+                        forweb589-coder ↗
+                    </a>
+                </div>
+
+            </div>
+
+            <form class="contact-form reveal" id="contact-form">
+
+                <label for="name" data-i18n="yourName">Your Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" data-i18n-placeholder="namePlaceholder" required>
+
+                <label for="email" data-i18n="yourEmail">Your Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" data-i18n-placeholder="emailPlaceholder" required>
+
+                <label for="message" data-i18n="yourMessage">Your Message</label>
+                <textarea id="message" name="message"
+                          placeholder="Tell me about your idea..." data-i18n-placeholder="messagePlaceholder"
+                          rows="5" required></textarea>
+
+                <button type="submit" class="primary-btn" data-i18n="sendMessage">
+                    Send Message ↗
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">BIRUK<span>.</span></a>
+
+        <p>
+            <span data-i18n="footerCredit">Designed & Built by Biruk Tamrat.</span>
+            © <span id="year"></span> <span data-i18n="rights">All rights reserved.</span>
+        </p>
+
+        <a href="#home" class="back-to-top" data-i18n="backToTop">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
